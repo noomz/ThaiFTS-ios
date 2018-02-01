@@ -1,0 +1,6 @@
+framework module Pods_ThaiFTS {
+  umbrella header "Pods-ThaiFTS-umbrella.h"
+
+  export *
+  module * { export * }
+}

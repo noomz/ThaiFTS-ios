@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D1170FD6F784874656FD291 /* ThaiFTSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1175F5E5A2095873F0C042 /* ThaiFTSTests.swift */; };
+		7D1175654773E9D6F2A04412 /* ThaiFTSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D117CA6F0A1A3245A8EDDD8 /* ThaiFTSUITests.swift */; };
+		7D11766800D853776A048036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D117BF3EA06B00E52454A68 /* Main.storyboard */; };
+		7D11792CF8B1B45875A11463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D117453E2E7981E23C9710D /* ViewController.swift */; };
+		7D1179683BA01EC0EDAB6644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1170B976D076645880F799 /* AppDelegate.swift */; };
+		7D117C0230D4B659CA185F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D117745AFAE62CB3FB317D8 /* Assets.xcassets */; };
+		7D117D053EE00306752C3D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D11710015CC0353042ED2A3 /* LaunchScreen.storyboard */; };
+		7D117E5C4BF52678776254A9 /* ThaiFTSDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11764DE51C23E36547EAD7 /* ThaiFTSDatabase.swift */; };
+		AC8EB89DCD0D986F5F1B1CB6 /* Pods_ThaiFTSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADADEFC2E0717ED70433346D /* Pods_ThaiFTSTests.framework */; };
+		AEFC475A9E26DFA02C790AB1 /* Pods_ThaiFTS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB561284DADBA90F119E2C28 /* Pods_ThaiFTS.framework */; };
+		FFAC0A2CB86AA97BA924604C /* Pods_ThaiFTSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6330F20896C0AEBBC2BE391A /* Pods_ThaiFTSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D11726A8A081E084F6CE667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D117264EBFF122AF9668717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1174607FC84CF27F40C831;
+			remoteInfo = ThaiFTS;
+		};
+		7D1174352C7C097AB8ED3576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D117264EBFF122AF9668717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1174607FC84CF27F40C831;
+			remoteInfo = ThaiFTS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C9D01351A6D5C9A784369CB /* Pods-ThaiFTSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThaiFTSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThaiFTSTests/Pods-ThaiFTSTests.release.xcconfig"; sourceTree = "<group>"; };
+		349C853BDFF81905633652AA /* Pods-ThaiFTSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThaiFTSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThaiFTSUITests/Pods-ThaiFTSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3679A0758AB2FE64F191A564 /* Pods-ThaiFTS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThaiFTS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThaiFTS/Pods-ThaiFTS.debug.xcconfig"; sourceTree = "<group>"; };
+		6330F20896C0AEBBC2BE391A /* Pods_ThaiFTSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThaiFTSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D11700F15CEB67CBA8A227C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		7D1170B976D076645880F799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D117453E2E7981E23C9710D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D1175BD3EF1F0BCBB6D278F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D1175F5E5A2095873F0C042 /* ThaiFTSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaiFTSTests.swift; sourceTree = "<group>"; };
+		7D11764DE51C23E36547EAD7 /* ThaiFTSDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThaiFTSDatabase.swift; sourceTree = "<group>"; };
+		7D1176DB3B8ECC2A99ABD776 /* ThaiFTSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThaiFTSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D117745AFAE62CB3FB317D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D1177571CDD65ADD38BFA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D1178067F9544138197CDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		7D117CA6F0A1A3245A8EDDD8 /* ThaiFTSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaiFTSUITests.swift; sourceTree = "<group>"; };
+		7D117CB250C840411309716C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		7D117D3693D92F276F8B06C0 /* ThaiFTSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThaiFTSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D117FC1E167F629210F9EBD /* ThaiFTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThaiFTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7DAD094AB74578B8DA4A6A /* Pods-ThaiFTS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThaiFTS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThaiFTS/Pods-ThaiFTS.release.xcconfig"; sourceTree = "<group>"; };
+		ADADEFC2E0717ED70433346D /* Pods_ThaiFTSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThaiFTSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D9525BAA81EB1582FB517E /* Pods-ThaiFTSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThaiFTSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThaiFTSTests/Pods-ThaiFTSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB561284DADBA90F119E2C28 /* Pods_ThaiFTS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThaiFTS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F222A2D2F5DDDF5217AC378F /* Pods-ThaiFTSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThaiFTSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThaiFTSUITests/Pods-ThaiFTSUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D1172F72773DCCDCDA5D9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8EB89DCD0D986F5F1B1CB6 /* Pods_ThaiFTSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D11783A54F55D3098578BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAC0A2CB86AA97BA924604C /* Pods_ThaiFTSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D11795B0470541F94E972AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFC475A9E26DFA02C790AB1 /* Pods_ThaiFTS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234A9FB0EBDB121E26D0A023 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3679A0758AB2FE64F191A564 /* Pods-ThaiFTS.debug.xcconfig */,
+				9D7DAD094AB74578B8DA4A6A /* Pods-ThaiFTS.release.xcconfig */,
+				B8D9525BAA81EB1582FB517E /* Pods-ThaiFTSTests.debug.xcconfig */,
+				0C9D01351A6D5C9A784369CB /* Pods-ThaiFTSTests.release.xcconfig */,
+				349C853BDFF81905633652AA /* Pods-ThaiFTSUITests.debug.xcconfig */,
+				F222A2D2F5DDDF5217AC378F /* Pods-ThaiFTSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D11711616DA75B875EA7EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D117FC1E167F629210F9EBD /* ThaiFTS.app */,
+				7D117D3693D92F276F8B06C0 /* ThaiFTSTests.xctest */,
+				7D1176DB3B8ECC2A99ABD776 /* ThaiFTSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D11781AD54A8070EAA032CA /* ThaiFTSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D117CB250C840411309716C /* Info.plist */,
+				7D1175F5E5A2095873F0C042 /* ThaiFTSTests.swift */,
+			);
+			path = ThaiFTSTests;
+			sourceTree = "<group>";
+		};
+		7D117A4A129F7F822EA29F0D /* ThaiFTS */ = {
+			isa = PBXGroup;
+			children = (
+				F69EA49C2021B4D00030AFDF /* resources */,
+				7D1178067F9544138197CDC3 /* Info.plist */,
+				7D117745AFAE62CB3FB317D8 /* Assets.xcassets */,
+				7D11710015CC0353042ED2A3 /* LaunchScreen.storyboard */,
+				7D1170B976D076645880F799 /* AppDelegate.swift */,
+				7D117BF3EA06B00E52454A68 /* Main.storyboard */,
+				7D117453E2E7981E23C9710D /* ViewController.swift */,
+				7D11764DE51C23E36547EAD7 /* ThaiFTSDatabase.swift */,
+			);
+			path = ThaiFTS;
+			sourceTree = "<group>";
+		};
+		7D117F2F2E97E2B929296A85 = {
+			isa = PBXGroup;
+			children = (
+				7D11711616DA75B875EA7EA1 /* Products */,
+				7D117A4A129F7F822EA29F0D /* ThaiFTS */,
+				7D11781AD54A8070EAA032CA /* ThaiFTSTests */,
+				7D117FC873BBCBE605697FE8 /* ThaiFTSUITests */,
+				234A9FB0EBDB121E26D0A023 /* Pods */,
+				D8542DC85B52E2AB25653728 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D117FC873BBCBE605697FE8 /* ThaiFTSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D11700F15CEB67CBA8A227C /* Info.plist */,
+				7D117CA6F0A1A3245A8EDDD8 /* ThaiFTSUITests.swift */,
+			);
+			path = ThaiFTSUITests;
+			sourceTree = "<group>";
+		};
+		D8542DC85B52E2AB25653728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB561284DADBA90F119E2C28 /* Pods_ThaiFTS.framework */,
+				ADADEFC2E0717ED70433346D /* Pods_ThaiFTSTests.framework */,
+				6330F20896C0AEBBC2BE391A /* Pods_ThaiFTSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69EA49C2021B4D00030AFDF /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D11701AE3C20E248DCF99DE /* ThaiFTSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D117A4AA4BA2D263A266B0C /* Build configuration list for PBXNativeTarget "ThaiFTSUITests" */;
+			buildPhases = (
+				014A15F0CEF6C6A35566A356 /* [CP] Check Pods Manifest.lock */,
+				7D117989559F164791F78157 /* Sources */,
+				7D11783A54F55D3098578BB3 /* Frameworks */,
+				7D117CE1F1E5C74DA756AE24 /* Resources */,
+				2E804BADD4B1C89C58FDB819 /* [CP] Embed Pods Frameworks */,
+				EC2ACF40777A1EDFDBB33175 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D1172B7882225CA4DF4245D /* PBXTargetDependency */,
+			);
+			name = ThaiFTSUITests;
+			productName = ThaiFTSUITests;
+			productReference = 7D1176DB3B8ECC2A99ABD776 /* ThaiFTSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7D1174607FC84CF27F40C831 /* ThaiFTS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D117882E1E855D63AA7DAE8 /* Build configuration list for PBXNativeTarget "ThaiFTS" */;
+			buildPhases = (
+				87F3E6C43F9E3620F93D6F27 /* [CP] Check Pods Manifest.lock */,
+				7D117C2C10657687E3D9CCDB /* Sources */,
+				7D11795B0470541F94E972AD /* Frameworks */,
+				7D11795FE61BEC1819272C36 /* Resources */,
+				AF2F6CB8DB38339284F51563 /* [CP] Embed Pods Frameworks */,
+				E79376C886B8A27E71B1E459 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThaiFTS;
+			productName = ThaiFTS;
+			productReference = 7D117FC1E167F629210F9EBD /* ThaiFTS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D117E57E61A2A95B56D1C64 /* ThaiFTSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1175EA966A4D8B7CB5BEC7 /* Build configuration list for PBXNativeTarget "ThaiFTSTests" */;
+			buildPhases = (
+				42C2A9011ADAC36AC3A1EDDA /* [CP] Check Pods Manifest.lock */,
+				7D11706A8A8CB12D61692AEB /* Sources */,
+				7D1172F72773DCCDCDA5D9F6 /* Frameworks */,
+				7D1178645CFC6C02B523A280 /* Resources */,
+				D4426BBD6341EA13ABD3BAD3 /* [CP] Embed Pods Frameworks */,
+				F7C0EC7A19567E9B0EDFB247 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D117476BF0AE57F6499270E /* PBXTargetDependency */,
+			);
+			name = ThaiFTSTests;
+			productName = ThaiFTSTests;
+			productReference = 7D117D3693D92F276F8B06C0 /* ThaiFTSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D117264EBFF122AF9668717 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 7D117B24DF70A19B97137930 /* Build configuration list for PBXProject "ThaiFTS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D117F2F2E97E2B929296A85;
+			productRefGroup = 7D11711616DA75B875EA7EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D1174607FC84CF27F40C831 /* ThaiFTS */,
+				7D117E57E61A2A95B56D1C64 /* ThaiFTSTests */,
+				7D11701AE3C20E248DCF99DE /* ThaiFTSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D1178645CFC6C02B523A280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D11795FE61BEC1819272C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D117C0230D4B659CA185F2F /* Assets.xcassets in Resources */,
+				7D117D053EE00306752C3D33 /* LaunchScreen.storyboard in Resources */,
+				7D11766800D853776A048036 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D117CE1F1E5C74DA756AE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		014A15F0CEF6C6A35566A356 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThaiFTSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E804BADD4B1C89C58FDB819 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThaiFTSUITests/Pods-ThaiFTSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42C2A9011ADAC36AC3A1EDDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThaiFTSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F3E6C43F9E3620F93D6F27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThaiFTS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF2F6CB8DB38339284F51563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ThaiFTS/Pods-ThaiFTS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThaiFTS/Pods-ThaiFTS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4426BBD6341EA13ABD3BAD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThaiFTSTests/Pods-ThaiFTSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E79376C886B8A27E71B1E459 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThaiFTS/Pods-ThaiFTS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC2ACF40777A1EDFDBB33175 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThaiFTSUITests/Pods-ThaiFTSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C0EC7A19567E9B0EDFB247 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThaiFTSTests/Pods-ThaiFTSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D11706A8A8CB12D61692AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1170FD6F784874656FD291 /* ThaiFTSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D117989559F164791F78157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1175654773E9D6F2A04412 /* ThaiFTSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D117C2C10657687E3D9CCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1179683BA01EC0EDAB6644 /* AppDelegate.swift in Sources */,
+				7D11792CF8B1B45875A11463 /* ViewController.swift in Sources */,
+				7D117E5C4BF52678776254A9 /* ThaiFTSDatabase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D1172B7882225CA4DF4245D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1174607FC84CF27F40C831 /* ThaiFTS */;
+			targetProxy = 7D11726A8A081E084F6CE667 /* PBXContainerItemProxy */;
+		};
+		7D117476BF0AE57F6499270E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1174607FC84CF27F40C831 /* ThaiFTS */;
+			targetProxy = 7D1174352C7C097AB8ED3576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D11710015CC0353042ED2A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1175BD3EF1F0BCBB6D278F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7D117BF3EA06B00E52454A68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1177571CDD65ADD38BFA8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D117382EC502A10F132D17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D1174E1A84A35635F289479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349C853BDFF81905633652AA /* Pods-ThaiFTSUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ThaiFTSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opendream.dev.ThaiFTSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThaiFTS;
+			};
+			name = Debug;
+		};
+		7D117706BAC49E3ED75DCA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F222A2D2F5DDDF5217AC378F /* Pods-ThaiFTSUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ThaiFTSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opendream.dev.ThaiFTSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThaiFTS;
+			};
+			name = Release;
+		};
+		7D1177C778513DBA939430DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3679A0758AB2FE64F191A564 /* Pods-ThaiFTS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThaiFTS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opendream.dev.ThaiFTS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D11795B453F0BB6CCCBA4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9D01351A6D5C9A784369CB /* Pods-ThaiFTSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThaiFTS.app/ThaiFTS";
+				INFOPLIST_FILE = ThaiFTSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opendream.dev.ThaiFTSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		7D117A0203FF341EA69960C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7DAD094AB74578B8DA4A6A /* Pods-ThaiFTS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThaiFTS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opendream.dev.ThaiFTS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D117A980803ABD448FD14FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D117EC7CCEB1D18D597EDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D9525BAA81EB1582FB517E /* Pods-ThaiFTSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThaiFTS.app/ThaiFTS";
+				INFOPLIST_FILE = ThaiFTSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opendream.dev.ThaiFTSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D1175EA966A4D8B7CB5BEC7 /* Build configuration list for PBXNativeTarget "ThaiFTSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D117EC7CCEB1D18D597EDE6 /* Debug */,
+				7D11795B453F0BB6CCCBA4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D117882E1E855D63AA7DAE8 /* Build configuration list for PBXNativeTarget "ThaiFTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1177C778513DBA939430DB /* Debug */,
+				7D117A0203FF341EA69960C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D117A4AA4BA2D263A266B0C /* Build configuration list for PBXNativeTarget "ThaiFTSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1174E1A84A35635F289479 /* Debug */,
+				7D117706BAC49E3ED75DCA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D117B24DF70A19B97137930 /* Build configuration list for PBXProject "ThaiFTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D117382EC502A10F132D17F /* Debug */,
+				7D117A980803ABD448FD14FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D117264EBFF122AF9668717 /* Project object */;
+}
